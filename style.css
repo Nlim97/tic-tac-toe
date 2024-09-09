@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Butterfly+Kids&family=Pixelify+Sans:wght@400..700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Pixelify Sans", sans-serif;
+    background-color: #F5EDED;
+}
+.header{
+    background: #6482AD;
+    height: 100px;
+    color: #E2DAD6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header h1{
+    font-weight: 700;
+    font-size: 4rem;
+}
+.container{
+    width: 100vw;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.game-box{
+    height: 50%;
+    width: 30%;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 15px;
+}
+.box{
+    background-color: #7FA1C3;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    padding: 0;
+}
+.box:active{
+    background-color: #5097de
+}
+.restart{
+    display: none;
+    width: 5rem;
+    padding: 10px;
+    font-family: "Pixelify Sans", sans-serif;
+    border-radius: 15px;
+    background-color: #98FB98;
+}
+.restart:active{
+    background-color: #5ae85a;
+}
